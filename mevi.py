@@ -15,8 +15,7 @@ sites={
                 'google':'google.com',
                 'youtube':'youtube.com',
                 'facebook':'facebook.com',
-                'whatsapp':'web.whatsapp.com',
-                'cursos':'freecodecamp.org/learn'
+                'whatsapp':'web.whatsapp.com'
             }
 
 files = {
