@@ -20,9 +20,9 @@ sites={
             }
 
 files = {
-    'carta':'Carta Pasantia - Daniel Erazo.pdf',
-    'cedula':'Cedula y papeleta - Daniel Erazo.docx',
-    'foto':'Foto Daniel Erazo.jpg'
+    'carta':'Carta Pasantia - mauricio_correa.pdf',
+    'cedula':'Cedula y papeleta - mauricio_correa.docx',
+    'foto':'Foto mauricio_correa.jpg'
 }
 
 commands = {
