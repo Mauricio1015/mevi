@@ -1,6 +1,6 @@
 import speech_recognition as sr
 import subprocess as sub
-import pyttsx3, wikipedia, pywhatkit, datetime, keyboard, cam
+import pyttsx3, wikipedia, pywhatkit, datetime, keyboard, cam 
 from pygame import mixer
 
 name = "mevi"

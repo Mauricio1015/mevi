@@ -21,7 +21,6 @@ def check_red(color):
 
 
 def capture():
-
   cap = cv2.VideoCapture(0)
   low_yellow = np.array([20,190,20],np.uint8)
   high_yellow = np.array([30,255,255],np.uint8)
