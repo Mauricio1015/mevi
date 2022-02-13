@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mevi:
+    image: mevi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
