@@ -37,7 +37,7 @@ def talk(text):
 def listen():
     try:
         with sr.Microphone() as source:
-            print("Escuchando mi pana...")
+            print("Te escucho...")
             pc = listener.listen(source)
             rec = listener.recognize_google(pc, language="es")
             rec = rec.lower()
