@@ -77,7 +77,7 @@ def run_mevi():
         elif 'abre' in rec:            
             for site in sites:
                 if site in rec:
-                    sub.call(f'start chrome.exe {sites[site]}', shell=True)
+                    sub.call(f'start brave.exe {sites[site]}', shell=True)
                     talk(f'Abriendo {site}')
         elif 'archivo' in rec:
             for file in files:
@@ -89,8 +89,7 @@ def run_mevi():
             break
 
 def buscar_youtube(search):
-    pywhatkit.playonyt(search)                    
-             
+    pywhatkit.playonyt(search)                     
             
         
 
