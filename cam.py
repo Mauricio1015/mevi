@@ -14,11 +14,8 @@ def draw(mask, color, frame_c):
 
 
 def check_red(color):
-  if color == 'red':
-    mevi.talk('Veo que es el día de las madres, y tengo algo para mostrarle a \
-    la mejor mamá del universo!')
-    mevi.buscar_youtube('')
-
+  const = color == 'red'
+   
 def capture():
   cap = cv2.VideoCapture(0)
   low_yellow = np.array([20,190,20],np.uint8)

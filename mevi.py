@@ -43,11 +43,10 @@ def listen():
             rec = rec.lower()
             if name in rec:
                 rec = rec.replace(name, '')
-
+            return rec
     except:
-        pass
-    return rec
-
+        talk("No te entiendo")
+        return "No te entiendo"
 
 def run_mevi():
     while True:
@@ -84,7 +83,7 @@ def run_mevi():
                 if file in rec:
                     sub.Popen([files[file]], shell=True)
                     talk(f'Abriendo {file}')   
-        elif 'termina' in rec:
+        elif 'Adios' in rec:
             talk('Adios!')
             break
 
