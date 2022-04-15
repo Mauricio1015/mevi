@@ -12,10 +12,12 @@ engine.setProperty('voice', voices[0].id)
 engine.setProperty('rate', 145)
 
 sites={
+                'instagram':'https://www.instagram.com/mauriciocorrea1015/',
                 'google':'google.com',
-                'youtube':'youtube.com',
-                'facebook':'facebook.com',
-                'whatsapp':'web.whatsapp.com'
+                'youtube':'https://www.youtube.com/channel/UCipRzgHhzcGykywQ_NrVrpg',
+                'facebook':'https://www.facebook.com/profile.php?id=100011671425992',
+                'whatsapp':'web.whatsapp.com',
+                'github':'https://github.com/mauricio1111111'
             }
 
 files = {
