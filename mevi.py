@@ -85,7 +85,7 @@ def run_mevi():
                 if file in rec:
                     sub.Popen([files[file]], shell=True)
                     talk(f'Abriendo {file}')   
-        elif 'Adios' in rec:
+        elif 'chao' in rec:
             talk('Adios!')
             break
 
