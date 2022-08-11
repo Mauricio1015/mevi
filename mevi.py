@@ -58,7 +58,13 @@ def run_mevi():
             print("Reproduciendo " + music)
             talk("Reproduciendo " + music)
             pywhatkit.playonyt(music)
-        
+
+        elif 'busca'in rec:
+                search = rec.replace('buscar','')
+                wikipedia.set_lang("es") 
+                wiki = wikipedia.summary(search, 1)
+                print(search +": " + wiki)
+                talk(wiki)       
         elif 'alarma' in rec:
             num = rec.replace('alarma', '')
             num = num.strip() 
@@ -67,7 +73,7 @@ def run_mevi():
                 if datetime.datetime.now().strftime('%H:%M') == num:
                     print("DESPIERTA!!!")
                     mixer.init()
-                    mixer.music.load("auronplay-alarma.mp3")
+                    mixer.music.load("alarma.mp3")
                     mixer.music.play()
                     if keyboard.read_key() == "s":
                         mixer.music.stop()
