@@ -12,6 +12,7 @@ este robot servirá de asistente, pero estará enfocado para aquellas personas q
 - numpy
 - opencv-contrib-python
 - wikipedia
+- entorno d desarollo de c++ ("https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false")
 
 ### Como instalarlo
 - pip install SpeechRecognition
