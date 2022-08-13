@@ -2,7 +2,7 @@ import speech_recognition as sr
 import subprocess as sub
 import pyttsx3, wikipedia, pywhatkit, datetime, keyboard, cam
 from pygame import mixer  
-
+import reconocimientofacial as rf
 name = "mevi"
 listener = sr.Recognizer()
 engine = pyttsx3.init()
@@ -81,9 +81,9 @@ def run_mevi():
         elif 'colores' in rec:
             talk("Enseguida")
             cam.capture()
-        # elif 'reconoce' in rec:
-        #     talk("reconociendo")
-        #     rf.capture()
+        elif 'reconoce' in rec:
+            talk("reconociendo")
+            rf.face_rec(1)
         elif 'abre' in rec:            
             for site in sites:
                 if site in rec:
@@ -97,6 +97,10 @@ def run_mevi():
         elif 'adios' in rec:
             talk('Adios!')
             break
+
+
+
+
 
 def buscar_youtube(search):
     pywhatkit.playonyt(search)                     
