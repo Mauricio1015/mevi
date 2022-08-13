@@ -1,6 +1,6 @@
 import speech_recognition as sr
 import subprocess as sub
-import pyttsx3, wikipedia, pywhatkit, datetime, keyboard, rf
+import pyttsx3, wikipedia, pywhatkit, datetime, keyboard, cam
 from pygame import mixer  
 
 name = "mevi"
@@ -80,7 +80,7 @@ def run_mevi():
                         break
         elif 'colores' in rec:
             talk("Enseguida")
-            rf.capture()
+            cam.capture()
         # elif 'reconoce' in rec:
         #     talk("reconociendo")
         #     rf.capture()
