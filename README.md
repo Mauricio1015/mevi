@@ -25,7 +25,7 @@ este robot servirá de asistente, pero estará enfocado para aquellas personas q
 ### Como instalarlo
 - pip install SpeechRecognition
 - pip install pyttsx3
-- pip install pyAudio
+- pip install pyAudio (en la carpeta donde esta el archivo que descargamos de PyAudio)
 - pip install pywhatkit
 - pip install pygame
 - pip install keyboard
