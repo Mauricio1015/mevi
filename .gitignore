@@ -8,10 +8,6 @@ __pycache__/
 *$py.class
 *alarma.mp3
 img/*.png
-opencv/*.xml
-idea/*.iml
-vscode/*json
-ide/inspections/*.xml
 
 # C extensions
 *.so
