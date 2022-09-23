@@ -21,17 +21,3 @@ este robot servirá de asistente, pero estará enfocado para aquellas personas q
 <img src="https://www.dropbox.com/s/i32ynjyjt9mxlz5/c%2B%2B.png?raw=1" width="500">
 
 <h1>antes de empezar a instalar las librerias se debe instalar los paquetes de c++, como se muestra en la imagen anteriar</h1>   
-
-### Como instalarlo
-- pip install SpeechRecognition
-- pip install pyttsx3
-- pip install pyAudio (en la carpeta donde esta el archivo que descargamos de PyAudio)
-- pip install pywhatkit
-- pip install pygame
-- pip install keyboard
-- pip install numpy
-- pip install opencv-contrib-python
-- pip install wikipedia
-- pip install cmake
-- pip install dlib
-- pip install face_recognition
