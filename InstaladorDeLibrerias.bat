@@ -1,5 +1,5 @@
 @echo off
-start https://python.org/downloads/
+start https://linktr.ee/mauricio1015
 pip install SpeechRecognition
 pip install pyttsx3
 pip install pyAudio
