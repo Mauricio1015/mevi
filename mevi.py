@@ -10,7 +10,6 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 engine.setProperty('rate', 145)
-
 sites={
                 'instagram':'https://www.instagram.com/mauriciocorrea1015/',
                 'google':'google.com',
@@ -46,19 +45,25 @@ def listen():
             if name in rec:
                 rec = rec.replace(name, '')
             return rec
+
+            
+
     except:
         talk("No te entiendo")
         return "No te entiendo"
 
+
 def run_mevi():
     while True:
         rec = listen()
+      
         if 'reproduce' in rec:
             music = rec.replace('reproduce','')
             print("Reproduciendo " + music)
             talk("Reproduciendo " + music)
             pywhatkit.playonyt(music)
-
+        elif 'mevi' in rec:
+           talk('Soy mevi tu asistente virtual, mi creador es mauricio correa y soy la base del proyecto mevi, el cual es un robot con una inteligencia artificial capas de detectar delincuentes y reportar a las autoridades, con el fin de mejorar la seguridad de tu hogar, cuento con las capacidades de muchos asistentes virtuales del mercado, con la unica diferencia que yo fui creada en puerto nare un hermoso pueblo pesquero a las horillas del rio magdalena.')
         elif 'busca'in rec:
                 search = rec.replace('buscar','')
                 wikipedia.set_lang("es") 
