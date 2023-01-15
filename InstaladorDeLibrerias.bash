@@ -1,14 +1,13 @@
-
 sudo apt-get install python3-pyaudio
-pip install SpeechRecognition
-pip install pyttsx3
-pip install pyAudio
-pip install pywhatkit
-pip install pygame
-pip install keyboard
-pip install numpy
-pip install opencv-contrib-python
-pip install wikipedia
-pip install cmake
-pip install dlib
-pip install face_recognition
+sudo pip install SpeechRecognition
+sudo pip install pyttsx3
+sudo pip install pyAudio
+sudo pip install pywhatkit
+sudo pip install pygame
+sudo pip install keyboard
+sudo pip install numpy
+sudo pip install opencv-contrib-python
+sudo pip install wikipedia
+sudo pip install cmake
+sudo pip install dlib
+sudo pip install face_recognition
