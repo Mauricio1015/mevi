@@ -4,7 +4,7 @@ import face_recognition
 
 def face_rec(state):
     #img a comparar2
-    image = cv2.imread("IMG/yo.png")
+    image = cv2.imread("IMG/YO.jpg")
     face_log = face_recognition.face_locations(image)[0]
     # print("face_locations: ", face_log)
     face_image_encoding = face_recognition.face_encodings(image, known_face_locations=[face_log])[0]
